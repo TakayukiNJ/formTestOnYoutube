@@ -12,8 +12,8 @@ function formTest(e) {
   const message = comapany + '\n' + name + '様\n' + '\nご登録ありがとうございます。'
   GmailApp.sendEmail(address, title, message)
 
-  // アクセストークン→ EP055IZGbYPZVdYb15OBKg5bMJUTsK2GJ1s1FkxqprC
-  const token = 'EP055IZGbYPZVdYb15OBKg5bMJUTsK2GJ1s1FkxqprC'
+  // アクセストークンはこちらから入手→ https://notify-bot.line.me/
+  const token = '***アクセストークン***'
   const options = {
     "method" : "post",
     "headers" : {
